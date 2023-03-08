@@ -1,0 +1,80 @@
+.sectionCountry {
+    display: flex;
+    margin: 2em 10em;
+    height: 26em;
+}
+
+.btnBack {
+    height: 3em;
+    border-radius: 5px;
+    border: transparent;
+    background-color: white;
+    padding: 0em 1.5em;
+    margin: 2em 12em;
+    box-shadow: 0px 1px 5px 0px rgb(184, 183, 183);
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.btnBack:hover {
+    transform: scale(0.97);
+    opacity: 0.8;
+}
+
+.divFlag {
+    flex: 50%;
+    height: 100%;
+}
+
+.divFlag img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.divInfos {
+    flex: 42%;
+    padding-left: 5%;
+}
+
+.divInfos h1 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.infos {
+    display: flex;
+    /* gap: 50px; */
+}
+
+
+.rightInfos, .leftInfos {
+    flex: 50%;
+}
+
+
+.divInfos span {
+    font-weight: bold;
+}
+
+.divBorderCountries {
+    width: 30em;
+    width: 32em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.divBorderCountries a{
+    border-radius: 5px;
+    border: transparent;
+    background-color: white;
+    padding: 0.5em;
+    box-shadow: 0px 1px 5px 0px rgb(184, 183, 183);
+    cursor: pointer;
+}
+
+.divBorderCountries a:hover {
+    filter: brightness(85%);
+}

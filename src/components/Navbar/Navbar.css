@@ -1,0 +1,27 @@
+/*----- Navbar ----- */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 10em;
+    background-color: white;
+    height: 5em;
+}
+
+nav h1 {
+    font-size: 2em;
+}
+
+nav button {
+    background-color: black;
+    color: white;
+    padding: 0.7em 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+nav button:hover {
+    transform: scale(0.98);
+    opacity: 0.8;
+}
